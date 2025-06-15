@@ -3,3 +3,23 @@ body {
     background: #f9f9f9;
     color: #333;
 }
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #005fa3;
+}
